@@ -1,3 +1,41 @@
-
+.payment {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+}
+.payment .alternatives {
+  width: 50%;
+}
+.payment .alternatives .title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.payment .alternatives .img {
+  margin: 2px;
+  width: auto;
+}
+.payment .social {
+  flex-grow: 1;
+}
+.payment .social .title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.payment .social .icons {
+  display: flex;
+}
+.payment .social .icons .icon {
+  width: 50px;
+}
+.payment .social .icons .icon .img {
+  display: block;
+  margin: auto;
+}
+.payment .social .icons .icon .text {
+  padding-top: 4px;
+  font-size: 0.6875rem;
+  font-weight: 300;
+  text-align: center;
+}
 
 /*# sourceMappingURL=payment.css.map */

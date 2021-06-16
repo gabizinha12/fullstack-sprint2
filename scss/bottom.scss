@@ -1,0 +1,23 @@
+.bottom {
+  background-color: #f6f6f6;
+  padding: 20px 0;
+
+  .container {
+    display: flex;
+  }
+
+  .copyright {
+    width: 83.333333%;
+
+    .text {
+      font-size: 0.5625rem;
+      font-weight: 400;
+      color: #261e1e;
+    }
+  }
+
+  .stamp {
+    margin: 0 auto;
+    width: 47px;
+  }
+}

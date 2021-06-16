@@ -1,0 +1,49 @@
+.payment {
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  display: flex;
+
+  .alternatives {
+    width: 50%;
+
+    .title {
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .img {
+      margin: 2px;
+      width: auto;
+    }
+  }
+
+  .social {
+    flex-grow: 1;
+
+    .title {
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .icons {
+      display: flex;
+
+      .icon {
+        width: 50px;
+
+        .img {
+          display: block;
+          margin: auto;
+        }
+
+        .text {
+          padding-top: 4px;
+          font-size: 0.6875rem;
+          font-weight: 300;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

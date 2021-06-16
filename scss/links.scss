@@ -1,0 +1,70 @@
+.links {
+  background-color: #f6f6f6;
+  margin-top: 40px;
+
+  display: flex;
+
+  .contacts {
+    width: 30%;
+    display: flex;
+
+    .col {
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+
+    .contact-icon {
+      text-align: center;
+      .img {
+        display: block;
+        margin: auto;
+        width: 25px;
+      }
+      .text {
+        padding: 8px;
+        font-size: 0.8125rem;
+        white-space: pre-line;
+      }
+    }
+  }
+
+  .separator {
+    width: 1px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.12);
+  }
+
+  .companies {
+    display: flex;
+    width: 60%;
+    padding: 50px;
+
+    .company-links {
+      flex-grow: 1;
+      margin-left: 8px;
+      margin-right: 8px;
+
+      .item {
+        padding-top: 8px;
+
+        .title {
+          text-transform: uppercase;
+          font-size: 0.875rem;
+        }
+
+        .text {
+          line-height: 25px;
+          font-size: 0.6875rem;
+          font-weight: 400;
+          color: black;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+.accessibility {
+  flex-grow: 1;
+}
+.accessibility .title {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.accessibility .img {
+  width: 30px;
+}
+
+/*# sourceMappingURL=acessibility.css.map */
