@@ -5,6 +5,7 @@
 }
 .payment .alternatives {
   width: 50%;
+  margin-top: 20px;
 }
 .payment .alternatives .title {
   text-transform: uppercase;
@@ -16,10 +17,12 @@
 }
 .payment .social {
   flex-grow: 1;
+  margin-top: 10px;
 }
 .payment .social .title {
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-top: 20px;
 }
 .payment .social .icons {
   display: flex;

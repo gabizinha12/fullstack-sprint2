@@ -10,7 +10,7 @@
 .links .contacts .col {
   flex-grow: 1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
 }
 .links .contacts .contact-icon {

@@ -6,6 +6,7 @@
 
   .alternatives {
     width: 50%;
+    margin-top: 20px;
 
     .title {
       text-transform: uppercase;
@@ -20,10 +21,12 @@
 
   .social {
     flex-grow: 1;
+    margin-top: 10px;
 
     .title {
       text-transform: uppercase;
       margin-bottom: 10px;
+      margin-top: 20px;
     }
 
     .icons {

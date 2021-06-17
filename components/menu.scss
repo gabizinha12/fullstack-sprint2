@@ -1,0 +1,31 @@
+@mixin for-phone-only {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+div.menu {
+  @include for-phone-only {
+    display: none;
+  }
+
+  .list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .link {
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    vertical-align: baseline;
+
+    &:hover {
+      border-bottom: 2px solid #000;
+    }
+  }
+}
