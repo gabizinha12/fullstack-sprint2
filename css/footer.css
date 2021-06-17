@@ -1,3 +1,28 @@
-
+.footer {
+  border-top: 2px solid lightgray;
+  padding-top: 40px;
+  width: 100%;
+}
+.footer .container {
+  margin: 0 auto;
+  width: 90%;
+}
+.footer .apps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .apps .msg {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+.footer .apps .app {
+  margin-left: 10px;
+}
+.footer .apps .app .img {
+  width: 110px;
+}
 
 /*# sourceMappingURL=footer.css.map */
