@@ -8,11 +8,11 @@
   margin-top: 20px;
   margin-bottom: 20px;
 
-  .row {
+  .products__row {
     margin: 8px;
   }
 
-  .list {
+  .products__list {
     display: flex;
     justify-content: space-between;
 
@@ -30,18 +30,19 @@
       cursor: pointer;
       border: 1px solid white;
       padding: 8px;
+      width: 100%;
 
       &:hover {
         box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
           0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
       }
 
-      .img {
+      .card__img {
         max-width: 100%;
         max-height: 100%;
       }
 
-      .description {
+      .card__description {
         font-size: 0.6875rem;
         font-weight: 400;
         color: rgba(0, 0, 0, 0.87);
@@ -51,7 +52,7 @@
         margin-bottom: 10px;
       }
 
-      .price {
+      .card__price {
         font-size: 0.8125rem;
         font-weight: 600;
         text-transform: uppercase;

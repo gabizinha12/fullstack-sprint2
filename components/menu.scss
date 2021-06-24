@@ -4,19 +4,19 @@
   }
 }
 
-div.menu {
+.menu {
   @include for-phone-only {
     display: none;
   }
 
-  .list {
+  .menu__list {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
     margin-bottom: 10px;
   }
 
-  .link {
+  .menu__link {
     font-size: 0.8125rem;
     font-weight: 600;
     color: #000;

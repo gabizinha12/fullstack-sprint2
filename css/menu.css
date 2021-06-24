@@ -1,15 +1,15 @@
 @media (max-width: 1200px) {
-  div.menu {
+  .menu {
     display: none;
   }
 }
-div.menu .list {
+.menu .menu__list {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-div.menu .link {
+.menu .menu__link {
   font-size: 0.8125rem;
   font-weight: 600;
   color: #000;
@@ -17,7 +17,7 @@ div.menu .link {
   padding-bottom: 5px;
   vertical-align: baseline;
 }
-div.menu .link:hover {
+.menu .menu__link:hover {
   border-bottom: 2px solid #000;
 }
 

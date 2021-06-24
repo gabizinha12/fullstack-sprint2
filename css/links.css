@@ -16,7 +16,7 @@
 .links .contacts .contact-icon {
   text-align: center;
 }
-.links .contacts .contact-icon .img {
+.links .contacts .contact-icon .contact__img {
   display: block;
   margin: auto;
   width: 25px;

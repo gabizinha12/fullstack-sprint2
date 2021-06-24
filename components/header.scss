@@ -10,13 +10,13 @@
   border-bottom: 1px solid #e0e0e0;
 
   // .container
-  > div {
+  .__container {
     margin: auto;
     width: 95%;
     max-width: container 1200px;
 
     // .mobile
-    > div:first-child {
+    .__mobile {
       display: none;
       margin-bottom: 25px;
 
@@ -27,7 +27,7 @@
     }
 
     // .desktop
-    > div:nth-child(2) {
+    .__desktop {
       @include for-phone-only {
         display: none;
       }

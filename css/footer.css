@@ -21,7 +21,7 @@
 .footer .apps .app {
   margin-left: 10px;
 }
-.footer .apps .app .img {
+.footer .apps .app .app__img {
   width: 110px;
 }
 

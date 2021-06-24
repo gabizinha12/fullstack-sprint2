@@ -40,7 +40,7 @@
   border: none;
   padding: 10px 20px 10px 20px;
 }
-.contact .btn .txt {
+.contact .btn .btn__txt {
   font-size: 0.9375rem;
   font-weight: 600;
   text-transform: uppercase;
